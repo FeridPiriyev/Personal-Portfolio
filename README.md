@@ -1,0 +1,1 @@
+Başladığım tarix:02 Dekabr
