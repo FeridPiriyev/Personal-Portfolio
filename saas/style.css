@@ -20,6 +20,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   list-style: none;
   text-decoration: none;
@@ -265,7 +269,7 @@ body #education .container .education-item {
 
 body #education .container .education-item .education-item-info {
   width: 300px;
-  background-color: #ff4a57;
+  background-color: orangered;
   color: #fff;
   padding: 40px 20px 50px 40px;
   line-height: 10px;
@@ -872,6 +876,7 @@ body #footer .container .col h1 {
   background-color: #1F2235;
   z-index: 999999;
   width: 100%;
+  border-bottom: 1px solid gray;
 }
 
 #back2Top {

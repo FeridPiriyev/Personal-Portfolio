@@ -10,7 +10,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import "./responsive/responsive";
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 *{
     list-style: none;
@@ -219,7 +221,7 @@ body{
                 display: flex;
                 .education-item-info{
                     width: 300px;
-                    background-color: #ff4a57 ;
+                    background-color: orangered ;
                     color: #fff;
                     padding: 40px 20px 50px 40px;
                     line-height: 10px;
@@ -731,6 +733,7 @@ body{
     background-color: #1F2235;
     z-index: 999999;
     width: 100%;
+    border-bottom: 1px solid gray;
 }
 
 #back2Top {
@@ -759,6 +762,7 @@ body{
     background-color: #fff;
     color: #ff4a57;
 }
+
 
 
 

@@ -32,7 +32,7 @@ function sendEmail(){
     Email.send({
         Host : "smtp.google.com",
         Username : "Ferid",
-        Password : "Ferid2008",
+        Password : "Ferid10",
         To : 'brolaroyun01@gmail.com',
         From : document.getElementById("email").value,
         Subject : document.getElementById("subject").value,
@@ -40,7 +40,7 @@ function sendEmail(){
     }).then(
       message => alert(message)
     );
-}
+} 
 
 /*Sticky navbar*/
 const navbar = document.querySelector('.container');
