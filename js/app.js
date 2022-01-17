@@ -76,5 +76,10 @@ $(document).ready(function() {
 
  /*Scroll to top when arrow up clicked END*/
 
+ /*Loader */
+ setTimeout(function(){
+    $('.loader_bg').fadeToggle();
+}, 3000);
+
 
 
